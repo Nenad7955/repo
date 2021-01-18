@@ -1,3 +1,4 @@
+allow_writeable_chroot=YES
 anon_mkdir_write_enable=YES
 anon_other_write_enable=YES
 anon_root=/tmp
