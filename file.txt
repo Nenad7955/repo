@@ -1,6 +1,6 @@
 anon_mkdir_write_enable=YES
 anon_other_write_enable=YES
-anon_root=/tmp/ftp
+anon_root=/tmp
 anon_upload_enable=YES
 anon_world_readable_only=YES
 anonymous_enable=YES
@@ -8,8 +8,7 @@ ascii_upload_enable=YES
 connect_from_port_20=YES
 dirmessage_enable=YES
 listen=YES
-local_enable=YES
-nopriv_user=ftpsecure
+local_enable=NO
 ssl_enable=NO
 syslog_enable=YES
 write_enable=YES
