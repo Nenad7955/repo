@@ -20,7 +20,10 @@ nopriv_user=ftp
 listen=YES
 
 
-hide_file=incoming/*
+chown_upload_mode=0777
+file_open_mode=0777
+local_umask=002
+anon_umask=002
 
 pasv_min_port=32022
 pasv_max_port=32041
